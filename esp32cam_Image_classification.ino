@@ -10,8 +10,6 @@
 #include "driver/rtc_io.h"
 #include <EEPROM.h>            // read and write from flash memory
 
-// Modify the following line according to your project name
-// Do not forget to import the library using "Sketch">"Include Library">"Add .ZIP Library..."
 #include <esp32Cam10taaka_inferencing.h>
 
 // define the number of bytes you want to access
@@ -235,5 +233,5 @@ void classify()
 }
 
 void loop() {
-  take_picture();
+  take_picture(); //Take picture when a button press and got sleep mode.
 }
